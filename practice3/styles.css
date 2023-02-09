@@ -1,3 +1,14 @@
 h1{
-    color: green;
+    color: #00FFFF;
+    color: #0000FF;
+    color: rgb(255, 255, 0);
+    color: rgba(255, 255, 0, .5);
+}
+
+.heading{
+    color: aqua;
+}
+
+body{
+    color: red;
 }
