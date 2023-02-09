@@ -1,7 +1,15 @@
 :root {
-   --div-background-color: yellow;
+   --div-background-color: skyblue;
    --text-color: black;
    --div-padding: 10px;
-   --div--margin: 10px;
-   
+   --div--margin: 10px; 
+}
+
+.child{
+   background-color: var(--div-background-color) ;
+   color:  var(--text-color);
+}
+
+.one {
+   --div-background-color: blue;
 }
