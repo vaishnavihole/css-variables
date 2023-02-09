@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css Variables/Custom Properties</title>
     <style>
+        :root{
+            --box-color:red;
+        }
       .box{
-        --box-color:red;
+        
         width: 200px;
         height: 200px;
         background-color: var(--box-color); 
@@ -18,6 +21,7 @@
 
       .container{
         display: flex;
+        background-color: var(--box-color);
       }
     </style>
 </head>
