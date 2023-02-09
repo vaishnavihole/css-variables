@@ -1,8 +1,10 @@
 h1{
     color: #00FFFF;
-    color: #0000FF;
+     color: #0000FF;
     color: rgb(255, 255, 0);
     color: rgba(255, 255, 0, .5);
+    color: hsl(0, 100%, 50%);
+    color: hsla(0, 100%, 50%, 0);
 }
 
 .heading{
